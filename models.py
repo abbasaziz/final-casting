@@ -4,6 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 import json
 
 
+db = SQLAlchemy()
 database_path = os.environ['DATABASE_URL']
 if database_path.startswith("postgres://"):
   database_path = database_path.replace("postgres://", "postgresql://", 1)
