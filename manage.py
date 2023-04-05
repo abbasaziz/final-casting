@@ -3,7 +3,7 @@ from flask_migrate import Migrate, MigrateCommand
 
 from app import app
 from models import db
-# This is only for using postgres migrations
+# This is only for using postgres migrations while saving new modules
 migrate = Migrate(app, db)
 manager = Manager(app)
 
