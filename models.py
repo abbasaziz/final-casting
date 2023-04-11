@@ -24,7 +24,7 @@ def setup_db(app):
 
 '''
 Person
-Have title and release year
+It has a specific title and release year
 '''
 class Person(db.Model):  
   __tablename__ = 'People'
