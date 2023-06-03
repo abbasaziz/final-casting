@@ -11,7 +11,7 @@ if database_path.startswith("postgres://"):
 
 '''
 setup_db(app)
-    binds a flask application and a SQLAlchemy service
+    This binds a flask application and a SQLAlchemy service
 '''
 def setup_db(app):
     app.app_context().push()
